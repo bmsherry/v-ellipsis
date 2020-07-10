@@ -1,4 +1,4 @@
-# v-ellipsis
+# vue-directive-ellipsis
 a ellipsis tooltip show with popper.js ,is a vue directive plugin,
 It can appear ellipsis according to the content width, and tooltip can appear when ellipsis appears, 
 prompt for complete information
@@ -7,6 +7,11 @@ prompt for complete information
 ## example
 you can open index.html with browser, then change the browser viewport width, then you can see the change.
 Move the mouse into the text, you can see the tooltip
+
+## installation
+```
+    npm install vue-directive-ellipsis -D
+```
 
 ## registered
 ```javascript
