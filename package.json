@@ -1,6 +1,6 @@
 {
-  "name": "v-ellipsis",
-  "version": "1.0.0",
+  "name": "vue-directive-ellipsis",
+  "version": "1.0.1",
   "description": "a ellipsis tooltip show with popper.js ,is a vue directive plugin",
   "main": "dist/ellipsis.umd.js",
   "scripts": {
@@ -17,6 +17,10 @@
   ],
   "author": "bmsherry",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmsherry/v-ellipsis"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
