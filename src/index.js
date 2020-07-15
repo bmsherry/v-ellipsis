@@ -23,16 +23,16 @@ const mouseover = (el, binding) => {
         const div = document.createElement('div');
         div.className = "my-tooltip-popper";
         const content = document.createElement('div');
-        div.append(content);
+        div.appendChild(content);
         const arrow = document.createElement('div');
         arrow.className = 'my-tooltip-arrow';
-        content.append(arrow);
+        content.appendChild(arrow);
         const span = document.createElement('div');
         span.innerHTML = valueMap[el.sy];
         span.className = 'my-tooltip-inner';
-        content.append(span);
+        content.appendChild(span);
         const reference = el;
-        document.body.append(div);
+        document.body.appendChild(div);
         popper = new Popper(
             reference,
             div,
