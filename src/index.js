@@ -78,6 +78,9 @@ const ellipsisShowToolTip = {
         valueMap[sy] = binding.value;
     },
     unbind(el) {
+        if (popper) {
+            popper.destroy();
+        }
         delete valueMap[el.sy];
         el.removeEventListener('mouseover', mouseover);
         el.removeEventListener('mouseout', mouseout)

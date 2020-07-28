@@ -1,6 +1,6 @@
 {
   "name": "vue-directive-ellipsis",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a ellipsis tooltip show with popper.js ,is a vue directive plugin",
   "main": "dist/ellipsis.umd.js",
   "scripts": {
